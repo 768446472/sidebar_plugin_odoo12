@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace the menu button with the company logo -->
+
+<template>
+    <t t-extend="Menu">
+        <t t-jquery=".o_menu_apps" t-operation="replace">
+            <img src="/web/binary/company_logo" class="img sidebar_company_logo" style="float: left"/>
+        </t>
+    </t>
+</template>
